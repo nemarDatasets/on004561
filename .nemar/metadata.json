@@ -1,29 +1,82 @@
 {
   "version": "2.0",
-  "dataset_id": "on004561",
-  "source": "openneuro",
-  "source_id": "ds004561",
+  "pipeline_stage": "enriched",
   "title": "Illusion of Agency over Electrically-Actuated Movements",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "John Veillette": {},
     "Pedro Lopes": {},
     "Howard Nusbaum": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004561.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004561",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004561",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".gz",
+    ".html",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset contains electrophysiological recordings investigating the illusion of agency over electrically-actuated movements. Participants experienced electrical stimulation of muscles while performing motor tasks, with concurrent EEG recordings to examine neural correlates of agency perception. The study explores how the brain attributes voluntary control to externally-generated movements.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "agency perception"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "electrical stimulation"
+    },
+    {
+      "term": "sense of agency"
+    },
+    {
+      "term": "neuromuscular stimulation"
+    },
+    {
+      "term": "illusion of agency"
+    }
+  ],
+  "source_hash": "fa4e92116d277c3a46b443670ef8a7ce596493aef3015e1781b3e524165b9abc"
 }
