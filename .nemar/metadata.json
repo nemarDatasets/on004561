@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Illusion of Agency over Electrically-Actuated Movements",
-  "description": "This dataset contains electroencephalography (EEG) recordings from a study investigating the illusion of agency over electrically-actuated bodily movements. The research examines how individuals perceive control over movements induced via electrical muscle stimulation, contributing to the understanding of the sense of agency in human-computer interaction and body perception. Data were collected from human participants and organized according to the Brain Imaging Data Structure (BIDS) standard.",
+  "description": "EEG dataset investigating the sense of agency over movements produced by electrical muscle stimulation (electrically-actuated movements). It examines the illusion of agency when involuntary, externally actuated movements are experienced, and provides raw EEG recordings organized in BIDS format.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -21,7 +21,7 @@
       "term": "electrical muscle stimulation"
     },
     {
-      "term": "human-computer interaction"
+      "term": "voluntary movement"
     },
     {
       "term": "motor control"
@@ -60,7 +60,7 @@
     "eeg"
   ],
   "sizes": [
-    "105.2 GB (185 files)"
+    "97.96 GB (185 files)"
   ],
   "formats": [
     ".eeg",
